@@ -4,7 +4,5 @@ const route = Router();
 
 export default (app: Router) => {
   app.use('/foodEvents', route);
-  route.get('/all', (req: Request, res: Response) => {
-    return res.json({ events: req.body }).status(200);
-  });
+  route.get('/all', (req: Request, res: Response) => {});
 };
