@@ -3,5 +3,6 @@ export default {
   commentsDBFilename: 'comments.json',
   api: {
     prefix: '/api'
-  }
+  },
+  port: 8080
 };
